@@ -1,0 +1,13 @@
+{
+    "go.useLanguageServer": true,
+    "go.inferGopath": false,
+    "go.lintOnSave": "package",
+    "go.vetOnSave": "package",
+    "go.coverOnSave": false,
+    "go.formatTool": "gofmt",
+    "[go]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+    }
+}
